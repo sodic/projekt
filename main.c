@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void deri() {
-s    printf("Jel deres?");
+s    printf("Jel deres ti?");
 }
 
 int main() {
