@@ -5,7 +5,7 @@ void deri() {
 }
 
 void cudo() {
-    printf("jako veliko cudo");
+    printf("jako veliko cudo\n");
 }
 
 int main() {
