@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 void deri() {
-s    printf("Jel deres ti?");
+    printf("Jel deres ti?\n");
 }
 
 int main() {
-	printf("Jako dobar, mozda cak predobar");
+	printf("Jako dobar, mozda cak predobar\n");
         deri();
 	return 0;
 }
