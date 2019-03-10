@@ -7,5 +7,6 @@ void deri() {
 int main() {
 	printf("Jako dobar, mozda cak predobar\n");
         deri();
+
 	return 0;
 }
