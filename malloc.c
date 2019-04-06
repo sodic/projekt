@@ -22,7 +22,7 @@ Person create_person(char *first_name, char *last_name, int age) {
 
 int *get_array(int n) 
 {
-    int polje[n];
+    int polje[4];
     
     for(int i = 0; i < n; i++) {
         polje[i] = i * 2;
@@ -30,6 +30,11 @@ int *get_array(int n)
     
     return polje;
 
+}
+
+int *get_int() {
+    int a = 6;
+    return &a;
 }
 
 void print_array(int* array, int length)
@@ -52,9 +57,11 @@ int main(void)
     Person ante = create_person("Ante", "Gotovina", 56);
     print_person(ante);
 
-    int size = 4;
-    int *ligmao = get_array(size);
-    print_array(ligmao, size);
+    // int size = 4;
+    // int *ligmao = get_array(size);
+    // print_array(ligmao, size);
 
+    int b = get_int();
+    
     return 0;
 }
